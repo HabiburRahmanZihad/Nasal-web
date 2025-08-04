@@ -27,12 +27,71 @@
             }
         }
     </style>
+
+    <!-- Custom JavaScript -->
+    <script src="index.js"></script>
 </head>
 
 <body class=" container mx-auto px-1">
 
     <!-- Header section -->
     <header>
+        <!-- Navigation (Navbar) -->
+        <nav class="bg-white px-6 py-4 sticky top-0 z-50 ">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <!-- Logo -->
+                <div class="text-orange-500 text-2xl font-bold">logo</div>
+
+                <!-- Hamburger menu (mobile only) -->
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-2xl text-gray-800 focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <!-- Nav Links -->
+                <ul id="nav-links" class="hidden md:flex space-x-6 text-sm text-gray-800 items-center">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">Why It Works</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Before & After</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+
+                <!-- Contact Button (desktop only) -->
+                <div class="hidden md:block">
+                    <button
+                        class="bg-orange-500 text-white text-sm px-6 py-2 rounded-full hover:bg-orange-600 transition flex items-center gap-2">
+                        Contact Us <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Nav Links -->
+            <ul id="mobile-menu" class="md:hidden mt-4 space-y-2 text-gray-800 text-sm hidden">
+                <li><a href="#" class="block">home</a></li>
+                <li><a href="#" class="block">Why It Works</a></li>
+                <li><a href="#" class="block">Features</a></li>
+                <li><a href="#" class="block">How It Works</a></li>
+                <li><a href="#" class="block">Testimonials</a></li>
+                <li><a href="#" class="block">Before & After</a></li>
+                <li><a href="#" class="block">Science</a></li>
+                <li><a href="#" class="block">FAQs</a></li>
+                <li>
+                    <button
+                        class="w-full bg-orange-500 text-white px-4 py-2 rounded-full flex justify-center items-center gap-2">
+                        Contact Us <i class="fas fa-arrow-right"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- Hero Section -->
+
     </header>
 
 
